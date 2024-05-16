@@ -35,10 +35,14 @@ set(action_files
 
 set(srv_files
   srv/AddObjects.srv
-  srv/RemoveObjects.srv
-  srv/GetObjectPose.srv
   srv/AttachObject.srv
   srv/DetachObject.srv
+  srv/GetObjectPose.srv
+  srv/MoveToPose.srv
+  srv/MoveToPoseSeq.srv
+  srv/MoveToJointPosition.srv
+  srv/RemoveObjects.srv
+  srv/SetScalingFactor.srv
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
