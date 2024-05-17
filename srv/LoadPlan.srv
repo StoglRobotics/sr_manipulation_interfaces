@@ -1,0 +1,5 @@
+# CSV file containing building instructions
+string filename
+---
+bool success
+string message

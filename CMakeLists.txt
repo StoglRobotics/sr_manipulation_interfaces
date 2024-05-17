@@ -38,6 +38,7 @@ set(srv_files
   srv/AttachObject.srv
   srv/DetachObject.srv
   srv/GetObjectPose.srv
+  srv/LoadPlan.srv
   srv/MoveToPose.srv
   srv/MoveToPoseSeq.srv
   srv/MoveToJointPosition.srv
